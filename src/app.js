@@ -3,10 +3,6 @@ const connectDB = require('./Data/database');
 const authRouter = require('./Routes/authRouter')
 const loginRouter = require('./Routes/loginRouter')
 
-
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
-
 const app = express();
 app.use(express.json());
 
